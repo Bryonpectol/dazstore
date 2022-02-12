@@ -10,6 +10,17 @@
     }
 }
 
+@keyframes linkhover {
+    0% {
+
+    }
+
+    100% {
+        background-color: #b4b9cc;
+        /* color: white; */
+    }
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -17,6 +28,49 @@
 
 .nav {
     background-color: #2f354f;
+    display: flex;
+    flex-direction: row;
+}
+
+.netlifylogin ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.netlifylogin ul {
+    display: flex;
+    flex-direction: row;
+    padding-top: 4vh;
+}
+
+.netlifylogin a {
+    color: white;
+    text-decoration: none;
+    padding: 2vh;
+    margin: 2vh;
+}
+
+.account {
+    color: white;
+    text-decoration: none;
+    padding: 2vh;
+    margin: 2vh;
+}
+
+.account:hover {
+    animation: navahover 1s forwards;
+}
+
+.netlifylogin a:hover {
+    animation: navahover 1s forwards;
+}
+
+.netlify-identity-user {
+    color: white;
+}
+
+.netlify-identity-item {
+    color: white;
 }
 
 .navul {
@@ -38,8 +92,4 @@
 
 .navli {
     list-style-type: none;
-}
-
-.hero {
-    
 }
