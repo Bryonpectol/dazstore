@@ -20,7 +20,7 @@ body {
 }
 
 .nav {
-    background-color: rgb(47, 53, 79);
+    background-color: #2f354f;
 }
 
 .navul {
@@ -42,4 +42,8 @@ body {
 
 .navli {
     list-style-type: none;
+}
+
+.hero {
+    
 }
