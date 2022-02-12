@@ -1,4 +1,45 @@
+@keyframes navahover {
+    0% {
+
+    }
+
+    100% {
+        background-color: white;
+        color:rgb(47, 53, 79);
+        border: white 2px solid;
+    }
+}
+
 * {
     margin: 0px;
     padding: 0px;
+}
+
+body {
+    
+}
+
+.nav {
+    background-color: rgb(47, 53, 79);
+}
+
+.navul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nava {
+    margin:2vh;
+    padding: 2vh;
+    border: 2px solid black;
+    color: white;
+    text-decoration: none;
+}
+
+.nava:hover {
+    animation: navahover 1s forwards;
+}
+
+.navli {
+    list-style-type: none;
 }
